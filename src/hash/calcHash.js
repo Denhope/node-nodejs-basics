@@ -22,6 +22,4 @@ const calculateHash = async () => {
   }
 };
 
-calculateHash().catch((err) => {
-  console.error("Error calculating hash:", err);
-});
+await calculateHash();
